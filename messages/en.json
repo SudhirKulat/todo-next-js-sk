@@ -1,0 +1,37 @@
+{
+  "TodoPage": {
+    "todo_Items": "Todo Items",
+    "title": "Todo Dashboard",
+    "delete_todo_btn": "Delete",
+    "edit_todo_btn": "Edit",
+    "no_todo_data" :"No Todos available",
+    "edit_modal":{
+        "title": "Edit Todo",
+        "cancel_btn": "Cancel",
+        "update_btn": "Update"
+      }
+    
+  },
+  "TodoForm": {
+        "add_new_todo": "Add new Todo",
+        "todo_submit_button":"Submit",
+        "placeholder_title":"Title",
+        "placeholder_desc":"Description",
+        "loader_state_btn":"Creating a todo.."
+    },
+
+    "AuthDetails": {
+      "login": "Sign In",
+      "email": "Email",
+      "password": "Password",
+      "signIn": "Sign In",
+      "newAccount": "Create a new account",
+      "register_link": "Sign Up",
+      "signOutBtn": "Sign out",
+      "register":"Sign Up",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "haveAccountQue": "Already have an account?",
+      "login_link": "Sign In"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "TodoPage" : {
+      "title" : "Tableau de bord des tâches",
+      "todo_Items": "Éléments à faire",
+      "delete_todo_btn": "Supprimer",
+      "edit_todo_btn": "Éditer",
+      "no_todo_data" :"Aucune tâche disponible",
+      "edit_modal":{
+        "title": "Éditer Todo",
+        "cancel_btn": "Annuler",
+        "update_btn": "Mise à jour"
+      }
+    },
+
+    "TodoForm": {
+        "add_new_todo": "Ajouter une nouvelle tâche",
+        "todo_submit_button":"Soumettre",
+        "placeholder_title":"Titre",
+        "placeholder_desc":"Description",
+        "loader_state_btn":"Création d'une tâche."
+    },
+    "AuthDetails": {
+      "login": "Se connecter",
+      "email": "E-mail",
+      "password": "Mot de passe",
+      "signIn": "Se connecter",
+      "newAccount": "Créer un nouveau compte",
+      "register_link": "S'inscrire",
+      "signOutBtn": "Se déconnecter",
+      "register":"S'inscrire",
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "haveAccountQue": "Vous avez déjà un compte ?",
+      "login_link": "Se connecter"
+    }
+  }
