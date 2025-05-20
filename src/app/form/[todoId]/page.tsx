@@ -1,4 +1,4 @@
-import { fetchTodoById, handleTodoSubmit } from "@/app/actions/todoActions";
+import { fetchTodoById } from "@/app/actions/todoActions";
 import CreateTodo from "@/components/CreateTodo";
 
 interface EditTodoProps {
