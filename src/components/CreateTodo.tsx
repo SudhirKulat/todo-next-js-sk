@@ -3,11 +3,11 @@ import { useTranslations } from "next-intl";
 import React from "react";
 
 interface CreateUpdateProps {
-  title: string;
-  description: string;
-  status: string;
-  isEdit: boolean;
-  todoId: string
+  title?: string;
+  description?: string;
+  status?: string;
+  isEdit?: boolean;
+  todoId?: string
 }
 const CreateTodo = ({title, description, status, isEdit, todoId}: CreateUpdateProps) => {
   const t = useTranslations("TodoForm");
