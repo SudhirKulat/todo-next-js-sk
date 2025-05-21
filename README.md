@@ -14,12 +14,12 @@ pnpm dev
 bun dev
 ```
 
-This TODO application developed using next js with below feature.
---> We can add, view, edit and delete the Todo.
---> Used MonoDB for database related operation
---> Implemented authentication using Next-Auth
---> Used Tailwind css fro styling
---> Used Next-Intl for internalization
---> This app hosted on vercel and can be accessed using below URL:
+This TODO application developed using next js with below feature.\
+--> We can add, view, edit and delete the Todo.\
+--> Used MonoDB for database related operation\
+--> Implemented authentication using Next-Auth\
+--> Used Tailwind css fro styling\
+--> Used Next-Intl for internalization\
+--> This app hosted on vercel and can be accessed using below URL:\
 
 https://todo-next-js-sk.vercel.app/
