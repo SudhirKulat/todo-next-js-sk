@@ -1,10 +1,13 @@
 {
   "TodoPage": {
     "todo_Items": "Todo Items",
+    "add_todo_btn_main":"ADD TODO",
+    "welcome_text":"Welcome,",
     "title": "Todo Dashboard",
     "delete_todo_btn": "Delete",
     "edit_todo_btn": "Edit",
     "no_todo_data" :"No Todos available",
+    "todo_delete_waiting":"Please wait, deleting todo",
     "edit_modal":{
         "title": "Edit Todo",
         "cancel_btn": "Cancel",
@@ -14,10 +17,12 @@
   },
   "TodoForm": {
         "add_new_todo": "Add new Todo",
+        "update_todo": "Update Todo",
         "todo_submit_button":"Submit",
         "placeholder_title":"Title",
         "placeholder_desc":"Description",
-        "loader_state_btn":"Creating a todo.."
+        "loader_state_btn":"Creating a todo..",
+        "todo_create_waiting":"Please wait, submitting your todo"
     },
 
     "AuthDetails": {

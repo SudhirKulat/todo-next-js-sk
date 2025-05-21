@@ -1,5 +1,6 @@
 "use server";
 
+import { revalidatePath } from "next/cache";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 
@@ -25,14 +26,15 @@ export async function handleTodoSubmit(formData: FormData) {
 export async function deleteTodo(id: string) {
   console.log('deleting...')
   const cookieStore = await cookies();
-  await fetch(`${BASE_URL}/api/todos/${id}`, { method: 'DELETE',
+  const res = await fetch(`${BASE_URL}/api/todos/${id}`, { method: 'DELETE',
     headers: { 
       "Content-Type": "application/json",
       Cookie: cookieStore.toString()
      },
      cache:'no-store'
    });
-   redirect('/')
+   revalidatePath("/")
+   return await res.json();
 }
 
 export async function fetchTodos() {

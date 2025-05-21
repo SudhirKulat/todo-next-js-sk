@@ -23,6 +23,9 @@ export default function TodoList({ todos }: TodoListProps) {
     >
       <div className="flex justify-between">
         <h2 className="text-lg font-medium mb-4">{t("todo_Items")}</h2>
+        <button className="cursor-pointer bg-green-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+          <Link href="/form">{t("add_todo_btn_main")}</Link>
+        </button>
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -47,7 +50,7 @@ export default function TodoList({ todos }: TodoListProps) {
               </div>
             </div>
           ))}
-        {!todos?.length && <p>{t('no_todo_data')}</p>}
+        {!todos?.length && <p>{t("no_todo_data")}</p>}
       </div>
     </main>
   );

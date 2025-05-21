@@ -1,6 +1,7 @@
 import { handleTodoSubmit, handleUpdate } from "@/app/actions/todoActions";
 import { useTranslations } from "next-intl";
 import React from "react";
+import TodoFormButton from "./formButton/TodoFormButton";
 
 interface CreateUpdateProps {
   title?: string;
@@ -41,12 +42,7 @@ const CreateTodo = ({title, description, status, isEdit, todoId}: CreateUpdatePr
         </select>
         {isEdit ? <input type="hidden" name="todoId" value={todoId} /> : null }
 
-        <button
-          type="submit"
-          className="cursor-pointer bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
-        >
-          {isEdit ? 'Update' : t("todo_submit_button")}
-        </button>
+        <TodoFormButton isEdit={isEdit}/>
       </form>
     </div>
   );

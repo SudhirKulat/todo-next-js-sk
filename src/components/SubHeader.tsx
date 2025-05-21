@@ -19,8 +19,8 @@ const SubHeader = ({ locale }: SubHeaderProps) => {
         </button>
       ) : null}
       <select value={locale} onChange={(e) => userLangChange(e?.target?.value)}>
-        <option value="en">EN</option>
-        <option value="fr">FR</option>
+        <option value="en" className="bg-blue text-black">EN</option>
+        <option value="fr" className="bg-blue text-black">FR</option>
       </select>
     </>
   );

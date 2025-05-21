@@ -1,10 +1,13 @@
 {
     "TodoPage" : {
       "title" : "Tableau de bord des tâches",
+      "add_todo_btn_main":"AJOUTER TOUT",
+      "welcome_text":"Bienvenue,",
       "todo_Items": "Éléments à faire",
       "delete_todo_btn": "Supprimer",
       "edit_todo_btn": "Éditer",
       "no_todo_data" :"Aucune tâche disponible",
+      "todo_delete_waiting":"Veuillez patienter, suppression de la tâche",
       "edit_modal":{
         "title": "Éditer Todo",
         "cancel_btn": "Annuler",
@@ -14,10 +17,12 @@
 
     "TodoForm": {
         "add_new_todo": "Ajouter une nouvelle tâche",
+        "update_todo": "Tout mettre à jour",
         "todo_submit_button":"Soumettre",
         "placeholder_title":"Titre",
         "placeholder_desc":"Description",
-        "loader_state_btn":"Création d'une tâche."
+        "loader_state_btn":"Création d'une tâche.",
+        "todo_create_waiting":"Veuillez patienter, nous soumettons votre tâche"
     },
     "AuthDetails": {
       "login": "Se connecter",

@@ -84,7 +84,7 @@ export async function DELETE(
       return NextResponse.json({ message: "Todo not found" }, { status: 404 });
     }
 
-    return NextResponse.json({ message: "Todo deleted successfully" });
+    return NextResponse.json({ message: "Todo deleted successfully", status: 200 });
   } catch (err) {
     return NextResponse.json(
       { message: "Error deleting todo" + err },
